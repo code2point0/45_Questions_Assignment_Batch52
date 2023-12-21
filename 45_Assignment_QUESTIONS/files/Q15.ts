@@ -4,7 +4,7 @@ let Index:number=Guests.indexOf(Not_Join);
 let New_Guest:string="kainat"
 console.log(Guests[Index]+" Not Join us");
 Guests[Index] = New_Guest;
-for(let i=0;i<=Guests.length;i++)
+for(let i=0;i<Guests.length;i++)
 {
     if(i==Index)
         {
